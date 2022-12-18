@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    /* overflow: hidden; */
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.card-deck a {
+    color: black;
+}
+
+.card-deck {
+    font-size: 17px !important;
+}
+
+.card-deck a del {
+    color: grey;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+.carousel-inner>.carousel-item img {
+    height: 470px;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-body {
+    min-height: 140px;
+}
+
+#sale-box {
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    background-color: rgb(255, 64, 64);
+    border-radius: 5px;
+}
+
+.card-deck .btn-outline-primary:hover {
+    color: blue;
+    background-color: white;
+}
+
+.modal {
+    font-size: 14px;
+}
+
+.add-btn {
+    display: block;
+    padding: 5px;
+    margin: auto;
+    font-size: 15px !important;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.soluong_block {
+    word-spacing: 0;
+}
+
+#btnMinutes,
+#btnAdd,
+#so-luong {
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    color: grey;
+    border: 1px solid grey;
+}
+
+#so-luong {
+    color: #007bff;
+}
+
+.soluong_block .price {
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer {
+    font-size: 18px;
+}
+
+footer a {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner>.carousel-item img {
+        height: 350px;
+    }
+}

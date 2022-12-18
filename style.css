@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.card-deck a {
+    color: black;
+}
+
+.card-deck {
+    font-size: 17px !important;
+}
+
+.card-deck a del {
+    color: grey;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+.carousel-inner>.carousel-item img {
+    height: 350px;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-body {
+    min-height: 140px;
+}
+
+#sale-box {
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    background-color: rgb(255, 64, 64);
+    border-radius: 5px;
+}
+
+.card-deck .btn-outline-primary:hover {
+    color: blue;
+    background-color: white;
+}
+
+.modal {
+    font-size: 14px;
+}
+
+.add-btn {
+    display: block;
+    padding: 5px;
+    margin: auto;
+    font-size: 15px !important;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.soluong_block {
+    word-spacing: 0;
+}
+
+#btnMinutes,
+#btnAdd,
+#so-luong {
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    color: grey;
+    border: 1px solid grey;
+}
+
+#so-luong {
+    color: #007bff;
+}
+
+.soluong_block .price {
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.danhmuc li {
+    list-style: none;
+    /* margin: 5px; */
+    margin-top: 18px;
+    padding: 5px;
+}
+
+.danhmuc li:hover {
+    background-color: #eee;
+}
+
+.danhmuc li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.danhmuc li a i {
+    width: 35px;
+    font-size: 23px;
+}
+
+i {
+    width: 35px;
+    font-size: 28px;
+}
+
+.danhmuc {
+    background-color: white;
+    padding: 5px;
+}
+
+.card_body {
+    margin: 10px 0;
+    min-height: 120px;
+}
+
+.card_body .card-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h5.card-title:hover {
+    text-decoration: underline;
+}
+
+.userbtn {
+    position: absolute;
+}
+
+.dangxuat {
+    position: relative;
+}
+
+footer {
+    font-size: 18px;
+}
+
+footer a {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner>.carousel-item img {
+        height: 350px;
+    }
+}
